@@ -1,22 +1,19 @@
 {
-  "name": "Midnight Vencord (Mobile Desktop Colors)",
-  "description": "Mobile port with desktop colors exactly applied",
+  "name": "Midnight Vencord (Blue Mobile)",
+  "description": "Mobile adaptation of Midnight Vencord blue theme with exact desktop colors.",
   "version": "1",
   "authors": [
-    {"name": "kmmiio99o.dev","id": "879393496627306587"}
+    {
+      "name": "kmmiio99o.dev",
+      "id": "879393496627306587"
+    }
   ],
   "semanticColors": {
-    "TEXT_NORMAL": ["#e8f1ff"],
-    "TEXT_PRIMARY": ["#F5dcb0"],
-    "TEXT_SECONDARY": ["#b3a58c"],
-    "TEXT_MUTED": ["#7fa6d966"],
-    "TEXT_LINK": ["#0575e6"],
-    
     "CHAT_BACKGROUND": ["#12171d"],
     "BACKGROUND_PRIMARY": ["#12171d"],
     "BACKGROUND_SECONDARY": ["#1e2731"],
     "BACKGROUND_SECONDARY_ALT": ["#1e2731"],
-    "BACKGROUND_TERTIARY": ["#2a3440"],
+    "BACKGROUND_TERTIARY": ["#0f1419"],
     "BACKGROUND_FLOATING": ["#1e2731"],
     "BACKGROUND_NESTED_FLOATING": ["#1a222c"],
     "HOME_BACKGROUND": ["#1e2731"],
@@ -25,22 +22,41 @@
     "CARD_PRIMARY_BG": ["#1a222c"],
     "CARD_SECONDARY_BG": ["#1e2731"],
     "EMBED_BACKGROUND": ["#18202a"],
-    "BACKGROUND_MESSAGE_HOVER": ["rgba(0,0,0,0.25)"],
 
-    "INTERACTIVE_NORMAL": ["#7fa6d9"],
-    "INTERACTIVE_HOVER": ["#a9c7f5"],
-    "INTERACTIVE_ACTIVE": ["#e8f1ff"],
-    "INTERACTIVE_MUTED": ["#7fa6d966"],
+    "BACKGROUND_MESSAGE_HOVER": ["rgba(0,0,0,0.25)"],
+    "BACKGROUND_MODIFIER_ACCENT": ["rgba(34,117,201,0.12)"],
+    "BACKGROUND_MODIFIER_ACTIVE": ["rgba(34,117,201,0.18)"],
+    "BACKGROUND_MODIFIER_HOVER": ["rgba(34,117,201,0.12)"],
+    "BACKGROUND_MODIFIER_SELECTED": ["rgba(34,117,201,0.18)"],
+
+    "BACKGROUND_MENTIONED": ["#2275c933"],
+    "BACKGROUND_MENTIONED_HOVER": ["#2275c94d"],
+    "MENTION_BACKGROUND": ["#2275c933"],
+    "MENTION_FOREGROUND": ["#2275c9"],
+
+    "TEXT_NORMAL": ["#a9c7f5"],
+    "TEXT_PRIMARY": ["#e8f1ff"],
+    "TEXT_SECONDARY": ["#7fa6d9"],
+    "TEXT_MUTED": ["#7fa6d966"],
+    "TEXT_LINK": ["#0575e6"],
+
+    "HEADER_PRIMARY": ["#e8f1ff"],
+    "HEADER_SECONDARY": ["#7fa6d9"],
 
     "CHANNELS_DEFAULT": ["#7fa6d9"],
     "CHANNEL_ICON": ["#7fa6d9"],
 
-    "STATUS_DANGER": ["#f04747"],
-    "STATUS_DANGER_BACKGROUND": ["#f04747"],
-    "STATUS_DANGER_TEXT": ["#ffffff"],
+    "INTERACTIVE_NORMAL": ["#1e2731"],
+    "INTERACTIVE_HOVER": ["rgba(34,117,201,0.12)"],
+    "INTERACTIVE_ACTIVE": ["rgba(34,117,201,0.18)"],
+    "INTERACTIVE_MUTED": ["#7fa6d966"],
 
     "SCROLLBAR_THIN_THUMB": ["#2275c9"],
     "SCROLLBAR_AUTO_THUMB": ["#2275c9"],
+
+    "STATUS_DANGER": ["#f04747"],
+    "STATUS_DANGER_BACKGROUND": ["#f04747"],
+    "STATUS_DANGER_TEXT": ["#ffffff"],
 
     "REDESIGN_BUTTON_SECONDARY_BACKGROUND": ["#1e2731"],
     "REDESIGN_BUTTON_SECONDARY_ALT_BACKGROUND": ["#1e2731"],
@@ -49,44 +65,48 @@
 
     "AUTOCOMPLETE_BG": ["#12171d"],
     "KEYBOARD": ["#1e2731"],
-    "ANDROID_NAVIGATION_BAR_BACKGROUND": ["#12171d"]
+
+    "BACKGROUND_MODIFIER_ACCEPT": ["rgba(255,255,255,0.05)"],
+    "BACKGROUND_MODIFIER_ACCEPT_HOVER": ["rgba(255,255,255,0.08)"]
+  },
+  "rawColors": {
+    "BRAND_500": "#2275c9",
+    "BRAND_530": "#2275c9",
+    "BRAND_560": "#2275c9",
+    "BRAND_600": "#2275c9",
+    "BRAND_630": "#2275c9",
+    "BRAND_660": "#2275c9",
+    "BRAND_700": "#2275c9",
+
+    "BLUE_500": "#2275c9",
+    "BLUE_530": "#2275c9",
+    "BLUE_560": "#2275c9",
+    "BLUE_600": "#2275c9",
+
+    "PRIMARY_600": "#12171d",
+    "PRIMARY_630": "#1e2731",
+    "PRIMARY_645": "#12171d",
+    "PRIMARY_660": "#1e2731",
+    "PRIMARY_700": "#1e2731",
+
+    "WHITE_500": "#e8f1ff",
+    "WHITE_630": "#7fa6d9",
+
+    "RED_500": "#f04747",
+    "YELLOW_500": "#faa61a"
   },
   "plus": {
     "version": "0",
     "iconPack": "rosiecord-plumpy",
     "mentionLineColor": "#2275c9",
     "customOverlays": true,
-    "root": {
-      "--colors": "on",
-      "--text-0": "#ffffff",
-      "--text-1": "#e8f1ff",
-      "--text-2": "#c7dbff",
-      "--text-3": "#a9c7f5",
-      "--text-4": "#7fa6d9",
-      "--text-5": "#7fa6d966",
-      "--bg-4": "#12171d",
-      "--bg-3": "#1e2731",
-      "--bg-2": "#1e2731",
-      "--bg-1": "#2a3440",
-      "--hover": "rgba(34,117,201,0.12)",
-      "--active": "rgba(34,117,201,0.18)",
-      "--active-2": "rgba(34,117,201,0.28)",
-      "--message-hover": "rgba(0,0,0,0.25)",
-      "--accent-1": "#0575e6",
-      "--accent-2": "#2275c9",
-      "--accent-3": "#2275c9",
-      "--accent-4": "#3b8de0",
-      "--accent-5": "#1b5fa3",
-      "--accent-new": "#2275c9",
-      "--mention": "linear-gradient(to right, rgba(34,117,201,0.18) 40%, transparent)",
-      "--mention-hover": "linear-gradient(to right, rgba(34,117,201,0.28) 40%, transparent)",
-      "--reply": "linear-gradient(to right, rgba(248,248,255,0.15) 40%, transparent)",
-      "--reply-hover": "linear-gradient(to right, rgba(248,248,255,0.25) 40%, transparent)",
-      "--online": "#43b581",
-      "--idle": "#faa61a",
-      "--dnd": "#f04747",
-      "--streaming": "#643da7",
-      "--offline": "#636b75"
+    "icons": {
+      "trash": "#f04747",
+      "TrashIcon": "#f04747",
+      "TriangleExclamationPointIcon": "#f04747",
+      "toast_copy_link": "#a9c7f5",
+      "toast_copy_message": "#e8f1ff",
+      "toast_image_saved": "#e8f1ff"
     }
   },
   "spec": 2
