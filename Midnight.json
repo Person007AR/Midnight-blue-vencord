@@ -37,7 +37,7 @@
     "TEXT_NORMAL": ["#c7dbff"],
     "TEXT_PRIMARY": ["#e8f1ff"],
     "TEXT_SECONDARY": ["#a9c7f5"],
-    "TEXT_MUTED": ["#7fa6d966"],
+    "TEXT_MUTED": ["#ffffff"],
     "TEXT_LINK": ["#0575e6"],
 
     "HEADER_PRIMARY": ["#e8f1ff"],
@@ -49,7 +49,7 @@
     "INTERACTIVE_NORMAL": ["#c7dbff"],
     "INTERACTIVE_HOVER": ["#e8f1ff"],
     "INTERACTIVE_ACTIVE": ["#2275c9"],
-    "INTERACTIVE_MUTED": ["#7fa6d966"],
+    "INTERACTIVE_MUTED": ["#ffffff"],
 
     "SCROLLBAR_THIN_THUMB": ["#2275c9"],
     "SCROLLBAR_AUTO_THUMB": ["#2275c9"],
