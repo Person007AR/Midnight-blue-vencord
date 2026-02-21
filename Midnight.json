@@ -1,0 +1,114 @@
+{
+  "name": "Midnight Vencord (Blue Port)",
+  "description": "Midnight recolored to match the blue gradient theme.",
+  "version": "1",
+  "authors": [
+    {
+      "name": "kmmiio99o.dev",
+      "id": "879393496627306587"
+    }
+  ],
+  "semanticColors": {
+    "CHAT_BACKGROUND": ["#12171d"],
+    "BACKGROUND_PRIMARY": ["#12171d"],
+    "BACKGROUND_SECONDARY": ["#1e2731"],
+    "BACKGROUND_SECONDARY_ALT": ["#1e2731"],
+    "BACKGROUND_TERTIARY": ["#0f1419"],
+    "BACKGROUND_FLOATING": ["#1e2731"],
+    "BACKGROUND_NESTED_FLOATING": ["#1a222c"],
+    "HOME_BACKGROUND": ["#1e2731"],
+    "CHANNELTEXTAREA_BACKGROUND": ["#1e2731"],
+    "REDESIGN_CHAT_INPUT_BACKGROUND": ["#1e2731"],
+    "CARD_PRIMARY_BG": ["#1a222c"],
+    "CARD_SECONDARY_BG": ["#1e2731"],
+    "EMBED_BACKGROUND": ["#18202a"],
+
+    "BACKGROUND_MESSAGE_HOVER": ["rgba(0,0,0,0.25)"],
+    "BACKGROUND_MODIFIER_ACCENT": ["rgba(34,117,201,0.12)"],
+    "BACKGROUND_MODIFIER_ACTIVE": ["rgba(34,117,201,0.18)"],
+    "BACKGROUND_MODIFIER_HOVER": ["rgba(34,117,201,0.12)"],
+    "BACKGROUND_MODIFIER_SELECTED": ["rgba(34,117,201,0.18)"],
+
+    "BACKGROUND_MENTIONED": ["#2275c933"],
+    "BACKGROUND_MENTIONED_HOVER": ["#2275c94d"],
+    "MENTION_BACKGROUND": ["#2275c933"],
+    "MENTION_FOREGROUND": ["#2275c9"],
+
+    "TEXT_NORMAL": ["#a9c7f5"],
+    "TEXT_PRIMARY": ["#e8f1ff"],
+    "TEXT_SECONDARY": ["#7fa6d9"],
+    "TEXT_MUTED": ["#7fa6d966"],
+    "TEXT_LINK": ["#0575e6"],
+
+    "HEADER_PRIMARY": ["#e8f1ff"],
+    "HEADER_SECONDARY": ["#7fa6d9"],
+
+    "CHANNELS_DEFAULT": ["#7fa6d9"],
+    "CHANNEL_ICON": ["#7fa6d9"],
+
+    "INTERACTIVE_NORMAL": ["#7fa6d9"],
+    "INTERACTIVE_HOVER": ["#a9c7f5"],
+    "INTERACTIVE_ACTIVE": ["#e8f1ff"],
+    "INTERACTIVE_MUTED": ["#7fa6d966"],
+
+    "SCROLLBAR_THIN_THUMB": ["#2275c9"],
+    "SCROLLBAR_AUTO_THUMB": ["#2275c9"],
+
+    "STATUS_DANGER": ["#f04747"],
+    "STATUS_DANGER_BACKGROUND": ["#f04747"],
+    "STATUS_DANGER_TEXT": ["#ffffff"],
+
+    "REDESIGN_BUTTON_SECONDARY_BACKGROUND": ["#1e2731"],
+    "REDESIGN_BUTTON_SECONDARY_ALT_BACKGROUND": ["#1e2731"],
+    "REDESIGN_BUTTON_SECONDARY_BORDER": ["rgba(34,117,201,0.2)"],
+    "REDESIGN_BUTTON_DANGER_BACKGROUND": ["#f04747"],
+
+    "AUTOCOMPLETE_BG": ["#12171d"],
+    "KEYBOARD": ["#1e2731"]
+  },
+
+  "rawColors": {
+    "BRAND_500": "#2275c9",
+    "BRAND_530": "#2275c9",
+    "BRAND_560": "#2275c9",
+    "BRAND_600": "#2275c9",
+    "BRAND_630": "#2275c9",
+    "BRAND_660": "#2275c9",
+    "BRAND_700": "#2275c9",
+
+    "BLUE_500": "#2275c9",
+    "BLUE_530": "#2275c9",
+    "BLUE_560": "#2275c9",
+    "BLUE_600": "#2275c9",
+
+    "PRIMARY_600": "#12171d",
+    "PRIMARY_630": "#1e2731",
+    "PRIMARY_645": "#12171d",
+    "PRIMARY_660": "#1e2731",
+    "PRIMARY_700": "#1e2731",
+
+    "WHITE_500": "#e8f1ff",
+    "WHITE_630": "#7fa6d9",
+
+    "GREEN_500": "#43b581",
+    "YELLOW_500": "#faa61a",
+    "RED_500": "#f04747"
+  },
+
+  "plus": {
+    "version": "0",
+    "iconPack": "rosiecord-plumpy",
+    "mentionLineColor": "#2275c9",
+    "customOverlays": true,
+    "icons": {
+      "trash": "#f04747",
+      "TrashIcon": "#f04747",
+      "TriangleExclamationPointIcon": "#f04747",
+      "toast_copy_link": "#a9c7f5",
+      "toast_copy_message": "#e8f1ff",
+      "toast_image_saved": "#e8f1ff"
+    }
+  },
+
+  "spec": 2
+}
